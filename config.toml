@@ -51,6 +51,8 @@ toc_icon = "ri-menu-2-line"
 links = [
     {name = "GitHub", icon = "ri-github-line", url = "https://github.com/euskadi31"},
     {name = "Twitter", icon = "ri-twitter-line", url = "https://twitter.com/euskadi31"},
+    {name = "LinkedIn", icon = "ri-linkedin-box-line", url = "https://www.linkedin.com/in/euskadi31/"},
+    {name = "Instagram", icon = "ri-instagram-line", url = "https://www.instagram.com/euskadi31/"},
 ]
 
 #============== Feed ===============================================
