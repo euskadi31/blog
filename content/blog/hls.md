@@ -16,11 +16,7 @@ mermaid = true
 cc_license = true
 outdate_warn = false
 outdate_warn_days = 120
-metas = [
-    { name = "twitter:card", content="summary_large_image" },
-    { name = "twitter:title", content="Comment fonctionne le streaming vidéo avec HLS" },
-    { name = "twitter:image", content="https://i.ibb.co/280245f/thumbail.jpg" },
-]
+social_preview = true
 +++
 
 Comment fonctionne le streaming vidéo avec HLS ?

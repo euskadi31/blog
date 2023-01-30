@@ -1,4 +1,4 @@
-{% set image = resize_image(path=path, width=width, height=height, op=op) %}
+{% set image = resize_image(path=path, width=width, height=height, op=op, format="webp") %}
 <p>
-  <img src="{{ image.url }}" alt="{{ alt | default(value="") }}" />
+  <img src="{{ image.url }}" alt="{{ alt | default(value="") }}" width="{{ image.width }}px" height="{{ image.height }}px" />
 </p>

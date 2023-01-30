@@ -1,4 +1,5 @@
 +++
+title = "Axel Etcheverry - CTO, Tech Lead, Architecte et développeur logiciel"
 template = 'home.html'
 
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "Fabrication de mon meuble TV en acier et chêne"
 date = 2023-01-23
-draft = false
+draft = true
 path = "/artisanat/meuble-tv-acier-bois"
 
 [taxonomies]
@@ -17,11 +17,7 @@ mermaid = false
 cc_license = true
 outdate_warn = false
 outdate_warn_days = 120
-metas = [
-    { name = "twitter:card", content="summary_large_image" },
-    { name = "twitter:title", content="Fabrication de mon meuble TV en acier et chêne" },
-    { name = "twitter:image", content="https://i.ibb.co/280245f/thumbail.jpg" },
-]
+social_preview = true
 +++
 
 Aujourd'hui, je vais vous présenter le projet qui ma pris pas mal de temps, la fabrication de notre meuble TV suspendu en acier.
