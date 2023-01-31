@@ -2,7 +2,6 @@
 title = "Fabrication de mon meuble TV en acier et chêne"
 date = 2023-01-23
 draft = true
-path = "/artisanat/meuble-tv-acier-bois"
 
 [taxonomies]
 categories = ["Artisanat"]
