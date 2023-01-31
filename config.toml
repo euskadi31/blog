@@ -8,6 +8,7 @@ minify_html = true
 build_search_index = false
 generate_feed = true
 feed_filename = "atom.xml"       # The file name of feed, "feed.xml" / "atom.xml" / "rss.xml", read docs for more info
+title = "Axel Etcheverry - CTO, Tech Lead, Architecte et développeur logiciel"
 
 taxonomies = [
     {name = "tags"},             # Keep this
