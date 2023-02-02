@@ -1,0 +1,34 @@
+{% set image = resize_image(path=path, width=width, height=height, op=op, format="webp") %}
+
+<figure>
+  <img
+    decoding="async"
+    loading="lazy"
+    alt="{{ alt | default(value="") }}"
+    width="{{ image.width }}px"
+    src="{{ image.url }}" />
+</figure>
+
+{# set image390 = resize_image(path=path, width=390, op=op, format="webp") #}
+{# set image643 = resize_image(path=path, width=643, op=op, format="webp") #}
+
+{#
+<!-- figure>
+  <img
+    decoding="async"
+    loading="lazy"
+    alt="{{ alt | default(value="") }}"
+    width="{{ image.width }}px"
+    src="{{ image.url }}"
+    srcset="
+      {{ image390.url }} 390w,
+      {{ image643.url }} 643w,
+      {{ image.url }} 720w
+    "
+    sizes="(max-width: 720px) 100vw, 720px" />
+</figure -->
+
+<!-- p>
+  <img src="{{ image.url }}" alt="{{ alt | default(value="") }}" width="{{ image.width }}px" height="{{ image.height }}px" />
+</p -->
+#}
