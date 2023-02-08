@@ -37,3 +37,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           workingDirectory: public
+          command: pages publish --project-name=axel-etcheverry-blog
