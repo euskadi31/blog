@@ -36,5 +36,5 @@ jobs:
         uses: cloudflare/wrangler-action@2.0.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
-          workingDirectory: public
+          workingDirectory: .
           command: pages publish --project-name=axel-etcheverry-blog ./public
