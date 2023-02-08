@@ -30,7 +30,7 @@ jobs:
       - name: Build
         run: |
           ./zola build
-          ls -la
+          tree ./public
 
       - name: Publish
         uses: cloudflare/wrangler-action@2.0.0
