@@ -20,14 +20,13 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Setup Git
-        run: |
-          git config --global --add safe.directory '*'
-
-      - name: Build
-        uses: shalzz/zola-deploy-action@v0.16.1
-        env:
-          BUILD_ONLY: true
+      - name: Run the build process with Docker
+        uses: addnab/docker-run-action@v3
+        with:
+          image: ghcr.io/getzola/zola:v0.16.0
+          options: -v ${{ github.workspace }}:/app
+          run: |
+            zola build
 
       - name: Publish
         uses: cloudflare/wrangler-action@2.0.0
