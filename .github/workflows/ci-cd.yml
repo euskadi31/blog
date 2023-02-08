@@ -24,10 +24,16 @@ jobs:
         run: |
           curl https://github.com/getzola/zola/releases/download/v0.16.1/zola-v0.16.1-x86_64-unknown-linux-gnu.tar.gz -L -o zola.tar.gz
           tar -zxvf zola.tar.gz
+          ./zola --version
           ls -la
 
-      #- name: Publish
-      #  uses: cloudflare/wrangler-action@2.0.0
-      #  with:
-      #    apiToken: ${{ secrets.CF_API_TOKEN }}
-      #    workingDirectory: public
+      - name: Build
+        run: |
+          ./zola build
+          ls -la
+
+      - name: Publish
+        uses: cloudflare/wrangler-action@2.0.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          workingDirectory: public
