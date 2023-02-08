@@ -2,6 +2,9 @@
 title = "Fabrication d'une baie serveur en bois de 20U"
 date = 2023-01-23
 draft = false
+aliases = [
+  "bais-serveur-rack-20U"
+]
 
 [taxonomies]
 categories = ["Artisanat"]
