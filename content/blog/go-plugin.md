@@ -149,7 +149,7 @@ IL n'y a pas de solution parfaite, il faut choisir en fonction de ses besoins, e
 
 Pour le moment, je pense que WASM n'est pas encore asset mature pour être utilisé en t'en que plugin, mais ça viendra, c'est une solution très prometteuse.
 
-Yaegi est une solution très intéressante, mais il faut voir si on peut faire un packaging plus simple, c'est utilisé par [Traefik]() pour les middlewares, donc c'est viable en production, mais ça va dépendre du besoin en performance.
+Yaegi est une solution très intéressante, mais il faut voir si on peut faire un packaging plus simple, c'est utilisé par [Traefik](https://github.com/traefik/traefik) pour les middlewares, donc c'est viable en production, mais ça va dépendre du besoin en performance.
 
 Vous pouvez retrouver le code des benchmarks ici : https://github.com/euskadi31/go-plugin-benchmark
 
