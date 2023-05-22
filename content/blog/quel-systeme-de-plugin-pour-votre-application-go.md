@@ -151,6 +151,6 @@ Pour le moment, je pense que WASM n'est pas encore asset mature pour être utili
 
 Yaegi est une solution très intéressante, mais il faut voir si on peut faire un packaging plus simple, c'est utilisé par [Traefik](https://github.com/traefik/traefik) pour les middlewares, donc c'est viable en production, mais ça va dépendre du besoin en performance.
 
-Vous pouvez retrouver le code des benchmarks ici : https://github.com/euskadi31/go-plugin-benchmark
+Vous pouvez retrouver le code des benchmarks ici : [https://github.com/euskadi31/go-plugin-benchmark](https://github.com/euskadi31/go-plugin-benchmark)
 
-Je suis ouvert à toute remarque ou suggestion, n'hésitez pas à me contacter sur Twitter [@euskadi31](https://twitter.com/euskadi31) ou me faire une PR sur le repo du benchmark.
+Je suis ouvert à toute remarque ou suggestion, n'hésitez pas à me contacter sur Twitter [@euskadi31](https://twitter.com/euskadi31) ou me faire une PR sur le [repo du benchmark](https://github.com/euskadi31/go-plugin-benchmark).
