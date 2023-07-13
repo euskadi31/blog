@@ -178,7 +178,7 @@ Voici le résultat une fois les soudures meulées :
 
 Comme les soudures on légérement déformées les tôles, il a été très compliqué de sortir les tôles pour pouvoir les passer à l'hématite, j'ai donc mis des vis dans chaque coin pour pouvoir les sortir, il faut penser à casser la pointe de la vis au risque de percer la tôle...
 
-### Le traintement de l'acier
+### Le traitement de l'acier
 
 Pour le traitement de l'acier, j'ai utilisé de l'[hématite](https://www.laverdure.fr/oxydation-et-patine-des-mtaux/1804-2372-hematite-1-4l.html), ça donne un style canon de fusil, autre avantage ça ne rajoute aucune sur-épaisseur.
 
