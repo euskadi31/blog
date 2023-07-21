@@ -90,3 +90,7 @@ Il faudrait que je réfléchisse à faire du câble management, pour le moment, 
 Ce projet m'a pris environ 7 heures (prise en main de Fusion 360 compris), et m'a couté moins de 70 €
 
 Je pense que je ferais une version 2, avec un peu plus de marge entre le support et le Mac Studio pour pouvoir avoir la même mousse de protection sur les côtés.
+
+## Plan 3D
+
+Voici le lien pour télécharger le [plan 3D](/files/apple-mac-studio-under-desk-mount.zip).
